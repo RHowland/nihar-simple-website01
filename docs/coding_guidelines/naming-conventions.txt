@@ -1,4 +1,4 @@
-Naming Conventions for the njs-base-app01 app. 
+Naming Conventions.txt 
 
 Database Tables
 - Use singular names:
@@ -30,13 +30,13 @@ Airbnb Javascript Style Guide.
   Examples: HomePage, AboutPage, ContactPage.
 - In Next.js, for web page files (all of which must 
   be named page.tsx), give the parent folder the 
-  same pascal-case name as the component name. 
+  same pascal-case name as the page component name. 
   About page example: 
   - To configure the About page, under the app folder, 
     - Create a new folder named  "AboutPage".  
     - In this folder, create the "page.tsx" file to 
       hold the AboutPage component.  Then, inside the 
-      page.tsx file, name this component "AboutPage".  
+      page.tsx file, name this page component "AboutPage".  
 
 Javascript Code Styles
 - Follow the Airbnb Javascript Style guidelines
