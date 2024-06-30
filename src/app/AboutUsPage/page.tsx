@@ -1,31 +1,32 @@
-// Component Name: HomePage
+// Component Name: AboutUsPage
+import React from "react";
 
-import Hero from "@/components/Hero";
-
-export default function HomePage() {
+const AboutUsPage = () => {
   return (
-    <main className="px-24 py-16">
-      <Hero />
+    <main className="flex flex-col items-center justify-between p-24 min-h-screen">
+      <div className="text-4xl font-bold">About Page</div>
     </main>
   );
-}
+};
+
+export default AboutUsPage;
 
 /**
  * =====================================================================
  *   ORIGINAL DOCUMENTATION  (Append to end of component code block)
  * =====================================================================
- * File Name      : page.tsx
- * Component Name : HomePage
- * Component Type : HomePage Component
- * Date Created   : 30 June 2024
+ * File Name      : AboutUsPage.tsx
+ * Component Name : AboutUsPage
+ * Component Type : AboutUsPage Component
+ * Date Created   : 3 June 2024
  * Dev Name       : Nihar Hegde
  * ------------------------------
  * Question: Why was it necessary to create this component?
- * Answer  :  To render the HomePage component.
+ * Answer  :  This is the main component for the About Us page.
  *
  * ------------------------------
  * Question: What does this component do?:
- * Answer  :  This component renders the HomePage component.
+ * Answer  :  Will render the about us page.
  *
  * ------------------------------
  * Footnote Comments: None  (Enter "none" if you have no comments)
@@ -34,7 +35,7 @@ export default function HomePage() {
  * Input Comments:  None   (Enter "none" if you have no comments)
  *
  * ------------------------------
- * Output Comments: None  (Enter "none" if you have no comments)
+ * Output Comments: None   (Enter "none" if you have no comments)
  *
  * ------------------------------
  * Additional Comments:

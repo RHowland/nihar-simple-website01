@@ -1,31 +1,33 @@
-// Component Name: HomePage
+// Component Name: ContactPage
 
-import Hero from "@/components/Hero";
+import React from "react";
 
-export default function HomePage() {
+const ContactPage = () => {
   return (
-    <main className="px-24 py-16">
-      <Hero />
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div className="text-4xl font-bold">Contact Page</div>
     </main>
   );
-}
+};
+
+export default ContactPage;
 
 /**
  * =====================================================================
  *   ORIGINAL DOCUMENTATION  (Append to end of component code block)
  * =====================================================================
- * File Name      : page.tsx
- * Component Name : HomePage
- * Component Type : HomePage Component
- * Date Created   : 30 June 2024
+ * File Name      : ContactPage.tsx
+ * Component Name : ContactPage
+ * Component Type : ContactPage Component
+ * Date Created   : 3 June 2024
  * Dev Name       : Nihar Hegde
  * ------------------------------
  * Question: Why was it necessary to create this component?
- * Answer  :  To render the HomePage component.
+ * Answer  :  This is the main component for the Contact page.
  *
  * ------------------------------
  * Question: What does this component do?:
- * Answer  :  This component renders the HomePage component.
+ * Answer  :  Will render the contact page.
  *
  * ------------------------------
  * Footnote Comments: None  (Enter "none" if you have no comments)
@@ -34,7 +36,7 @@ export default function HomePage() {
  * Input Comments:  None   (Enter "none" if you have no comments)
  *
  * ------------------------------
- * Output Comments: None  (Enter "none" if you have no comments)
+ * Output Comments: None   (Enter "none" if you have no comments)
  *
  * ------------------------------
  * Additional Comments:
